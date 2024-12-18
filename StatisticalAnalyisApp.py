@@ -17,9 +17,9 @@ from scipy.stats import ttest_ind
 from scipy.stats import mannwhitneyu
 from scipy.stats.contingency import expected_freq
 from scipy.stats import chi2_contingency
-import rpy2.robjects.numpy2ri
-from rpy2.robjects.packages import importr
-rpy2.robjects.numpy2ri.activate()
+# import rpy2.robjects.numpy2ri
+# from rpy2.robjects.packages import importr
+# rpy2.robjects.numpy2ri.activate()
 from tableone import TableOne
 from scipy.stats import shapiro
 from IPython.display import display
